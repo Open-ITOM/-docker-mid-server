@@ -20,7 +20,7 @@ $ docker run -d --name docker-mid-rome \
   --env SN_HOST_NAME=dev12345.service-now.com \
   --env USER_NAME=username \
   --env PASSWORD=password \
-  moers/mid-server:rome
+  kuchiriel/mid-server:rome
 ```
 ## Supported Environment Variables
 
@@ -84,5 +84,5 @@ $ docker run -d --name docker-mid-latest \
   --health-retries=6 \
   --health-timeout=5s \
   --health-start-period=30s \
-  moers/mid-server:latest
+  kuchiriel/mid-server
 ```
