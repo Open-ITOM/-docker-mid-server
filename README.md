@@ -2,7 +2,7 @@
 
 # ServiceNow MID Server
 
-This is Service-Now MID Server versions as Docker container.
+This is simplified Service-Now MID Server versions as Docker container forked from https://hub.docker.com/r/moers/mid-server
 
 ## A note on Apache Log4j Vulnerability (CVE-2021-44228)
 
